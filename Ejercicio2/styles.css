@@ -1,0 +1,59 @@
+*{
+  
+    color:white;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://w0.peakpx.com/wallpaper/756/38/HD-wallpaper-silhouette-of-man-is-looking-stars-during-sunset-alone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title{
+    margin-top: 50px;
+}
+#title, #description{
+    text-align: center;
+}
+#title{
+    font-weight: 300;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+label,p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+input, select{
+    padding:10px;
+    border-radius: 5px;
+}
+
+#dropdown, option, #submit{
+    color:black;
+}
+.radioGroup{
+    display: inline-block;
+    border:1px solid red;
+}
+textarea{
+    height: 100px;
+}
+textarea::placeholder{
+    padding: 5px;
+    font-size: 15px;
+}
+#submit{
+    background-color: green;
+    color:white;
+    font-size: 15px;
+    padding: 15px 0px;
+    margin: 15px 0px;
+}

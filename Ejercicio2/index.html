@@ -1,0 +1,118 @@
+<link rel="stylesheet" href="styles.css">
+
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<form id="survey-form">
+    
+    <label id="name-label" for="name">Name</label>
+    <input 
+    type="text" 
+    id="name" 
+    placeholder="Enter your name" 
+    required>
+    
+    <label id="email-label" for="email">Email</label>
+    <input 
+    type="email" 
+    id="email" 
+    placeholder="Enter your Email" 
+    required>
+
+    <label id="number-label" for="number">Age (optional)</label>
+    <input 
+    type="number" 
+    id="number" 
+    max="100" 
+    min="16" 
+    placeholder="Age">
+
+
+    <label id="number-label" for="dropdown">Which option best describes your current role?</label>
+    <select id="dropdown">
+        <option value="optionDefault">Select current role</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+    </select>
+
+
+
+
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <label for="radio-option1-1">
+    <input 
+    id="radio-option1-1" 
+    class="radioGroup" 
+    type="radio" 
+    name="recommendFriend" 
+    value="Definitely">
+   Definitely</label>
+ 
+   <label for="radio-option1-2">
+    <input 
+    id="radio-option1-2"
+    class="radioGroup"
+    type="radio" 
+    name="recommendFriend" 
+    value="Maybe">
+    Maybe</label>
+
+    <label for="radio-option1-3">
+    <input 
+    id="radio-option1-3"  
+    class="radioGroup"
+    type="radio" 
+    name="recommendFriend" 
+    value="Not sure">
+    Not sure</label>
+    
+
+
+
+
+
+
+    <p>What is your favorite feature of freeCodeCamp?
+    </p>
+    <label for="radio-option2-1">
+    <input 
+    id="radio-option2-1" 
+    type="radio" 
+    name="favoriteFeature" 
+    value="projects">
+    Projects</label>
+    
+    <label for="radio-option2-2">
+    <input 
+    id="radio-option2-2"  
+    type="radio" 
+    name="favoriteFeature" 
+    value="Community">
+    Community</label>
+    
+     <p>What would you like to see improved? (Check all that apply)</p>
+    <label for="checkbox-option1">
+    <input 
+    id="checkbox-option1"  
+    type="checkbox" 
+    name="likeToSee" 
+    value="videos">
+    Videos</label>
+
+    <label for="checkbox-option2">
+    <input 
+    id="checkbox-option2"  
+    type="checkbox" 
+    name="likeToSee" 
+    value="forum">
+    Forum</label>
+
+    <p>Any comments or suggestions?</p>
+    <textarea placeholder="Enter your comment here..."></textarea>
+
+    <input id="submit" type="submit" value="Submit">
+</form>
+
+
+
+

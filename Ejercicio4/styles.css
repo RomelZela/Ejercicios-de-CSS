@@ -1,0 +1,13 @@
+@media (max-width:600px){
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+p{
+    width: 95%;
+    line-height: 22px;
+}
+h1{
+    padding-top: 15px;
+}
